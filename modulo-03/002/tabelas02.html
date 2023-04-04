@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        thead > tr{
+            position: sticky;
+            top:-1px;
+        }
+        th{
+            background-color: gray;
+            color: white;
+            font-weight: 600;
+        }
+        td{
+            background-color: white;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            background-color: rgb(214, 214, 214);
+            padding: 8px;
+            font-weight: 600;
+            color: red;
+            border-top: 2px solid black;
+        }
+        tbody > tr:nth-child(odd){
+
+            background-color: lightgray;
+        }
+</style>
+</head>
+<body>
+    <table>
+        <caption>
+            Minha tabela
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">
+                    Pessoas
+                </th>
+                <th scope="col">
+                    Idade
+                </th>
+                <th scope="col">
+                    cidade
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Davi
+                </td>
+                <td class="num">
+                    13
+                </td>
+                <td>
+                    Penalva
+                </td>
+            <tr>
+                <td>
+                    Timão
+                </td>
+                <td class="num">
+                    13
+                </td>
+                <td>
+                    Penalva
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Andressa
+                </td>
+                <td class="num">
+                    13
+                </td>
+                <td>Buriticupu</td>
+            </tr>
+            <tr>
+                <td>
+                    André Parga
+                </td>
+                <td class="num">
+                    100
+                </td>
+                <td>
+                    São Luiz
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">
+                    total
+                </th>
+                <td class="num">
+                    136
+                </td>
+                <td class="num">
+                   4
+                </td>
+            </tr>
+        </tfoot>
+    </table> 
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim, ducimus obcaecati debitis architecto est placeat amet quas minima dicta esse cumque inventore sint impedit voluptatum saepe tempora quisquam libero!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem recusandae eligendi, odio eveniet sequi, fugiat ullam sunt reiciendis repudiandae officia atque culpa. Quis blanditiis obcaecati numquam, sed dolorem corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque pariatur, facere sequi optio recusandae exercitationem amet quod, dolorum quae modi, distinctio unde aspernatur. Dignissimos quibusdam placeat quia possimus necessitatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, aspernatur? Harum totam possimus deserunt. Aspernatur error eveniet ipsam quidem facilis adipisci molestiae excepturi possimus ab repudiandae? Ab excepturi autem consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veritatis ut nostrum dignissimos autem, vel eos ipsam. Dolore ut deleniti blanditiis eius, perferendis iusto. Repellat magnam quibusdam temporibus ullam repudiandae.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam quaerat animi, magni optio alias aliquid deserunt debitis enim voluptatum accusamus reiciendis, assumenda inventore impedit maiores molestias eos eius dolore!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim, ducimus obcaecati debitis architecto est placeat amet quas minima dicta esse cumque inventore sint impedit voluptatum saepe tempora quisquam libero!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem recusandae eligendi, odio eveniet sequi, fugiat ullam sunt reiciendis repudiandae officia atque culpa. Quis blanditiis obcaecati numquam, sed dolorem corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque pariatur, facere sequi optio recusandae exercitationem amet quod, dolorum quae modi, distinctio unde aspernatur. Dignissimos quibusdam placeat quia possimus necessitatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, aspernatur? Harum totam possimus deserunt. Aspernatur error eveniet ipsam quidem facilis adipisci molestiae excepturi possimus ab repudiandae? Ab excepturi autem consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veritatis ut nostrum dignissimos autem, vel eos ipsam. Dolore ut deleniti blanditiis eius, perferendis iusto. Repellat magnam quibusdam temporibus ullam repudiandae.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam quaerat animi, magni optio alias aliquid deserunt debitis enim voluptatum accusamus reiciendis, assumenda inventore impedit maiores molestias eos eius dolore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim, ducimus obcaecati debitis architecto est placeat amet quas minima dicta esse cumque inventore sint impedit voluptatum saepe tempora quisquam libero!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem recusandae eligendi, odio eveniet sequi, fugiat ullam sunt reiciendis repudiandae officia atque culpa. Quis blanditiis obcaecati numquam, sed dolorem corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque pariatur, facere sequi optio recusandae exercitationem amet quod, dolorum quae modi, distinctio unde aspernatur. Dignissimos quibusdam placeat quia possimus necessitatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, aspernatur? Harum totam possimus deserunt. Aspernatur error eveniet ipsam quidem facilis adipisci molestiae excepturi possimus ab repudiandae? Ab excepturi autem consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veritatis ut nostrum dignissimos autem, vel eos ipsam. Dolore ut deleniti blanditiis eius, perferendis iusto. Repellat magnam quibusdam temporibus ullam repudiandae.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam quaerat animi, magni optio alias aliquid deserunt debitis enim voluptatum accusamus reiciendis, assumenda inventore impedit maiores molestias eos eius dolore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim, ducimus obcaecati debitis architecto est placeat amet quas minima dicta esse cumque inventore sint impedit voluptatum saepe tempora quisquam libero!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem recusandae eligendi, odio eveniet sequi, fugiat ullam sunt reiciendis repudiandae officia atque culpa. Quis blanditiis obcaecati numquam, sed dolorem corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque pariatur, facere sequi optio recusandae exercitationem amet quod, dolorum quae modi, distinctio unde aspernatur. Dignissimos quibusdam placeat quia possimus necessitatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, aspernatur? Harum totam possimus deserunt. Aspernatur error eveniet ipsam quidem facilis adipisci molestiae excepturi possimus ab repudiandae? Ab excepturi autem consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veritatis ut nostrum dignissimos autem, vel eos ipsam. Dolore ut deleniti blanditiis eius, perferendis iusto. Repellat magnam quibusdam temporibus ullam repudiandae.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam quaerat animi, magni optio alias aliquid deserunt debitis enim voluptatum accusamus reiciendis, assumenda inventore impedit maiores molestias eos eius dolore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim, ducimus obcaecati debitis architecto est placeat amet quas minima dicta esse cumque inventore sint impedit voluptatum saepe tempora quisquam libero!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem recusandae eligendi, odio eveniet sequi, fugiat ullam sunt reiciendis repudiandae officia atque culpa. Quis blanditiis obcaecati numquam, sed dolorem corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque pariatur, facere sequi optio recusandae exercitationem amet quod, dolorum quae modi, distinctio unde aspernatur. Dignissimos quibusdam placeat quia possimus necessitatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, aspernatur? Harum totam possimus deserunt. Aspernatur error eveniet ipsam quidem facilis adipisci molestiae excepturi possimus ab repudiandae? Ab excepturi autem consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veritatis ut nostrum dignissimos autem, vel eos ipsam. Dolore ut deleniti blanditiis eius, perferendis iusto. Repellat magnam quibusdam temporibus ullam repudiandae.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam quaerat animi, magni optio alias aliquid deserunt debitis enim voluptatum accusamus reiciendis, assumenda inventore impedit maiores molestias eos eius dolore!
+    </p>
+</body>
+</html>
