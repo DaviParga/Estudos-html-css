@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width:400px) {
+            div.container{
+                background-color: lightgreen;
+            }
+        }
+        .container{
+            background-color: red;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Palavra
+        </h1>
+    </div>
+</body>
+</html>

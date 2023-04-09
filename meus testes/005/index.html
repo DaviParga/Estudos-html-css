@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo Elementos</title>
+    
+    <style>
+        ::placeholder{
+            color: blue;
+        }
+        h1::before{
+            content:'<';
+        }
+        h1::after{
+            content: '>';
+        }
+        p::selection{
+            background-color: red;
+        }
+        p::first-letter{
+            background-color: red;
+            font-size: 40px;
+
+        }
+        p::first-line{
+            background-color: lightgreen;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Digitar">
+    </div>
+    <h1>OLÁ</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo in dolorum nesciunt, distinctio sed cupiditate reiciendis dicta ipsum nobis? Optio possimus expedita libero totam non. Animi quasi unde exercitationem nemo?
+    </p>
+</body>
+</html>
