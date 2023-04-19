@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando pseudo classes</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: lightyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: #ddffaa;
+            border-radius: 10px;
+            height: 200px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .inputs{
+            margin: 10px;
+            position: relative;
+            width: 90%;
+        }
+        #nome, #senha{
+            width: 100%;
+            height: 30px;
+            border: none;
+            background: none;
+            outline: none;
+            border: 2px solid lightcoral;
+            border-radius: 10px;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+        label{
+            position: absolute;
+            left: 5px;
+            top: 6px;
+            background-color: #ddffaa;
+        }
+        .inputs:active .labels{
+            transform: translatey(-80%);
+        }
+
+    </style>    
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+            <input type="text" id="nome" maxlength="20" minlength="3" required autocomplete="off">
+            <label for="nome" class="labels">Nome</label>
+        </div>
+        <div class="inputs">
+            <input type="password" id="senha" maxlength="20" minlength="8" required autocomplete="off">
+            <label for="senha" class="labels">Senha</label>
+        </div>
+        <button type="submit">Enviar</button>
+    </div>
+</body>
+</html>

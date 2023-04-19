@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando select-data lista e mais</title>
+</head>
+<body>
+    <div>
+        <label for="estado">Estado</label>
+        <select name="estado" id="iest">
+            <option value="" selected >---Escolha---</option>
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio De Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São paulo</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande Do Norte</option>
+            </optgroup>
+        </select>
+    </div>
+    <div>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lprof">
+        <datalist id="lprof">
+            <option>Professor</option>
+            <option>Dessenvolvedor</option>
+            <option>Jogador De Futebol</option>
+        </datalist>
+    </div>
+    <div>
+        <label for="imsg">Mensagem</label><br>
+        <textarea name="msg" id="imsg" cols="85" rows="20"></textarea>
+    </div>
+</body>
+</html>
